@@ -1,15 +1,23 @@
-# DMX Tests with a Raspberry Pi Pico
+# DMX Tests with MicroControllers
 
-Inspired by:
+Experiments related to these DMX512 projects:
 
-* [Raspberry Pi Pico W DMX Controller and DMX Quick Start for Beginners](https://www.instructables.com/Raspberry-Pi-Pico-W-DMX-Controller-and-DMX-Quick-S/)
-* [Source code on GitHub](https://github.com/john4242/artnet-pico-gateway)
+* [DMX512 Java Library](https://github.com/codewriterbv/DMX512/)
+* [DMX512 JavaFX user interface using the library](https://github.com/codewriterbv/DMX512-Demo)
 
-RS485 to Pico interface:
+**This repository contains several tests, all in "unstable situation" at this moment.**
+ 
+* Arduino
+  * Inspired by:
+    * [Code Arduino DMX Receiver](https://learn.adafruit.com/intro-to-dmx/code-arduino-dmx-receiver)
+* Raspberry Pi Pico
+  * Inspired by:
+    * [Raspberry Pi Pico W DMX Controller and DMX Quick Start for Beginners](https://www.instructables.com/Raspberry-Pi-Pico-W-DMX-Controller-and-DMX-Quick-S/)
+    * [Source code on GitHub](https://github.com/john4242/artnet-pico-gateway)
+* RS485 interface:
+    * Amazon: [DollaTek RS485 Converter Module Arduino](https://www.amazon.com.be/-/en/DollaTek-RS485-Converter-Module-Arduino/dp/B099DRKBGQ/ref=sr_1_10)
 
-* Amazon: [DollaTek RS485 Converter Module Arduino](https://www.amazon.com.be/-/en/DollaTek-RS485-Converter-Module-Arduino/dp/B099DRKBGQ/ref=sr_1_10)
-
-## Wiring for DollaTek Module:
+## Pico Wiring 
 
 ### DollaTek TTL to RS485
 
@@ -34,7 +42,7 @@ RS485 to Pico interface:
 
 ## Code Examples
 
-### MicroPython
+### MicroPython on Pico
 
 #### Prepare Pico for MicroPython
 
